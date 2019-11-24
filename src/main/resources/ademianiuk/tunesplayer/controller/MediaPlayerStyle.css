@@ -1,0 +1,102 @@
+#BorderPane {
+    -fx-pref-heightth: 100px;
+    -fx-min-height: 100px;
+    -fx-max-height: 100px;
+}
+
+.widget {
+    -fx-pref-width: 500px;
+    -fx-min-width: 500px;
+    -fx-max-width: 500px;
+    -fx-background-color:#2e343c;
+    -fx-padding:5px;
+}
+
+.widget .slider .track {
+    -fx-background-color:transparent;
+}
+
+.widget .slider .thumb {
+    -fx-background-color:#d1effc;
+}
+
+.widget .playerProgressBar .slider {
+    -fx-pref-width: 350px;
+    -fx-min-width: 350px;
+    -fx-max-width: 350px;
+    -fx-pref-height: 15px;
+    -fx-max-height: 15px;
+    -fx-min-height: 15px;
+}
+
+
+.widget .playerProgressBar .slider .thumb {
+    -fx-pref-height: 15px;
+    -fx-pref-width: 15px;
+}
+
+.widget .volumeProgressBar .slider {
+    -fx-pref-width: 75px;
+    -fx-min-width: 75px;
+    -fx-max-width: 75px;
+    -fx-pref-height: 10px;
+    -fx-max-height: 10px;
+    -fx-min-height: 10px;
+}
+
+.widget .volumeProgressBar .slider .thumb {
+    -fx-pref-height: 5px;
+    -fx-pref-width: 5px;
+}
+
+.widget Button{
+    -fx-pref-height: 36px;
+    -fx-pref-width: 36px;
+    -fx-min-width: 36px;
+    -fx-max-width: 36px;
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+
+.widget Button:hover{
+    -fx-background-color: #969696;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+
+Text {
+    -fx-fill:#4e5963;
+}
+
+.smallButtons {
+    -fx-pref-height: 20px;
+    -fx-pref-width: 20px;
+    -fx-min-width: 20px;
+    -fx-max-width: 20px;
+
+}
+
+#play {
+    -fx-background-image: url('button/play.png');
+}
+
+#next {
+    -fx-background-image: url('button/forward.png');
+}
+
+#prev {
+    -fx-background-image: url('button/backward.png');
+}
+
+#library {
+    -fx-background-image: url('button/library.png');
+}
+
+#volumeButton {
+    -fx-background-image: url('button/volumeUp.png');
+}
